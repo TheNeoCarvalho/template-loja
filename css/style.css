@@ -1,0 +1,53 @@
+	* { margin: 0 auto; padding: 0 }	
+
+	i {
+		color: #0bd2e0;
+	}
+
+	span { 
+		color:#333;
+	}
+
+	.header { 
+		width: 100%;
+		height: 23px;
+		padding: 7px 0
+	 }
+
+	 .logo {
+	 	float: left;
+	 	width: 33%;
+		font: 20px 'Lobster';
+		color: #0bd2e0;
+		text-align: center;
+	}
+
+	.busca input { 
+		color: #333;
+		padding: 2px;
+		margin-top: 5px;
+		float: left;
+		width: 33%;
+		border-radius: 5px; 
+	} 
+
+	.carrinho { 
+		float: right;
+		margin-top: 5px;
+		width: 28%;
+		text-align: right;
+		padding-right: 20px
+	 }
+
+	 .menu {
+	 	width: 100%;
+	 	height: 30px;
+	 	text-align: center;
+	 	padding: 10px 0
+	 }
+
+	 #lupa { 
+	 	position: absolute;
+	 	left: -30px;
+	 	top: 20px;
+	  }
