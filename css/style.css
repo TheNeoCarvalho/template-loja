@@ -8,17 +8,26 @@
 		color:#333;
 	}
 
+	a { 
+		font: 16px Oswald;
+		color: #FFF;
+		text-decoration: none;
+		transition: 0.5s
+	 }
+
+	 a:hover {color: #0aa5af;}
+
 	.header { 
 		width: 100%;
 		height: 23px;
-		padding: 7px 0
+		padding: 3px 0 10px 0;
 	 }
 
 	 .logo {
 	 	float: left;
 	 	width: 33%;
 		font: 20px 'Lobster';
-		color: #0bd2e0;
+		color: #3ec5b7;
 		text-align: center;
 	}
 
@@ -36,14 +45,24 @@
 		margin-top: 5px;
 		width: 28%;
 		text-align: right;
-		padding-right: 20px
+		padding-right: 20px;
+		
 	 }
 
 	 .menu {
 	 	width: 100%;
-	 	height: 30px;
+	 	height: 20px;
 	 	text-align: center;
-	 	padding: 10px 0
+	 	padding: 5px 0 10px 0;
+	 	background-color: #35c9ba; 
+	 }
+
+	.menu ul {
+	 	color: #fff;
+	 }
+
+	 .menu ul li {
+	 	display: inline;
 	 }
 
 	 #lupa { 
@@ -51,3 +70,111 @@
 	 	left: -30px;
 	 	top: 20px;
 	  }
+
+	 
+	.slide {
+		width: 100%;
+		height: auto;
+	}
+
+	.slide img{
+		width: 100%;
+		height: auto;
+	}
+
+	.destaques { 
+		width: 100%;
+		height: 120px;
+
+	}
+
+	.produtos {
+		float: left;
+		margin: 10px 60px;
+	}
+
+	.produtos img{
+		width: 180px;
+		height: 150px;
+		float: left;
+	}
+
+	.produtos .detalhes {
+		float:right;
+		margin-top: 30px;
+		padding-left: 30px;
+
+	}
+
+	.produtos .detalhes span, button {
+		display: block;
+	}
+
+	.detalhes span {
+		font: 22px oswald;
+		color: #999;
+	}
+
+	.detalhes button {
+		font:16px oswald;
+		font-weight: bold;
+		border-radius: 10px;
+		border: 1px solid #FFF;
+		width: 80px;
+		height: 35px;
+		background-color: #35c9ba; 
+		color: #FFF;
+		transition: 1s;
+	}
+
+	.detalhes button:hover {
+		transform:  scale(0.9);
+		color: #000
+	}
+
+	.titulo {
+		margin-top: 50px;
+		width: 100%;
+		height: 70px;
+		background-color: #35c9ba;
+	}
+
+	.titulo h2 {
+		color:#FFF;
+		font: 24px oswald;
+		margin-left:80px;
+		padding-top: 15px 
+
+	}
+
+	.prod {
+		float:left;
+		border: 2px solid rgba(128, 128, 128, .1);
+		margin: 10px 25px;
+		height: 350px;
+		width: 280px;
+		text-align: center;
+		border-bottom: 6px solid #35c9ba;
+		box-shadow: 4px 4px 1px #CCC;
+	}
+
+	.prod .detalhes {
+		margin-top: 15px
+	}
+
+	.conteudo {
+		padding: 50px 0;
+		width: 80%;
+		height: auto;
+	}
+
+	.conteudo img{
+		float: left;
+		width:400px;
+		height: 400px
+	}
+
+	.conteudo .info {
+		float: right;
+		width: 400px;
+	}
